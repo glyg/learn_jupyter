@@ -86,21 +86,33 @@ Durant les 4 jours de formation, les TPs sont contrôlés et corrigés par le fo
 
 ## Programme
 
-#### Jour 1 : Découverte du notebook
+#### Partie 1 : Découverte du notebook
 
 - Présentation de la communauté PyData, où chercher et où trouver de l'aide.
 - Installation avec la distribution Anaconda et l'outil `conda`
 - Le langage Markdown, un outil de rédaction léger et très portable
 - Export de notebooks avec `nbconvert`
 - Gestion de version avec `nbdime`
+- `Hello World`, structure et navigation dans le notebook
+- Les "`cell magic`", quelques exemples
 
 
-#### Jour 2 : Python Scientifique
+#### Partie 2 : Python Scientifique
+
+- Un bref rafraîchissment sur python
+- Guide de styles, conseils d'écriture
 
 
 
-#### Jour 3 : Déploiement
+
+#### Partie 3 : Ipywidgets et interactivité
+
+
+
+#### Partie 4 : Déploiement
+
+
 
 ## Le formateur
 
-[Guillaume Gay](http://twitter.com/MorphoLG) développeur. Titulaire d'une thèse de physique, il travaille sur la modélisation et l'analyse de données pour des problématiques de biologies depuis 16 ans. Il a adopté python scientifique à ses débuts en 2008 et ne l'a pas quitté depuis. Guillaume a enseigné a l'université et intervient régulièrement dans des conférences. Ses travaux de modélisation sont publiés dans différentes revues à commité de lecture.
+[Guillaume Gay](http://twitter.com/MorphoLG) développeur. Titulaire d'une thèse de physique, il travaille sur la modélisation et l'analyse de données sur des problématiques de biologies depuis 12 ans. Il a adopté python scientifique à ses débuts en 2008 et ne l'a pas quitté depuis. Guillaume a enseigné a l'université et intervient régulièrement dans des conférences, comme EuroSciPy en 2016. Ses travaux de modélisation sont publiés dans différentes revues internationales.
