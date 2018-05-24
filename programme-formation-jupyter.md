@@ -57,6 +57,8 @@ Pour explorer nos outils, le fil rouge de cette formation sera le développement
 
 ## Objectifs pédagogiques
 
+- Savoir établir un _workflow_ d'analyse et de visualisation de données.
+
 ### Administration
 
 - Savoir installer et administrer une distribution conda.
