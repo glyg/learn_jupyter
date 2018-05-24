@@ -5,7 +5,7 @@
 
 ## Public visé
 
-Cette formation s'adresse aux _data scientists_, et développeurs souhaitant maîtriser les approches de programmation lettrées
+Cette formation s'adresse aux _data scientists_ et _data analysts_, aux développeurs souhaitant maîtriser les approches de programmation lettrées.
 
 ## Description
 
@@ -30,22 +30,23 @@ Les technologies de l'écosystème Jupyter sont issues de la communautée python
 Nous illustrerons l'ensemble de ces possibilités à travers l'utilisation de python scientifique.
 
 
-### Python scientifique
+### Python scientifique et Pandas
 
 Depuis une dizaine d'années, le langage python s'est imposé dans l'informatique scientifique, pour l'analyse de données, la modélisation et même le calcul formel. La communauté, qui recoupe largement la communauté Jupyter, est très active, notamment à travers les réunions PyData et les conférences SciPy ou EuroScipy. Python scientifique s'organise autour de quelques bibliothèques centrales:
 
 - `numpy` et `scipy` fournissent les fondations du calcul scientifique: structure de données en tableau, outils d'algèbre et de statistique, etc.
 
-- `pandas` est une bibliothèque de manipulation de données indexées permettant une manipulation rapide de données complexes.
-
 - `matplotlib` est la bibliothèque de visualisation 2D historique.
 
-Nous verrons comment l'interaction du notebook jupyter et des bibliothèques python scientifique permet de produire et partager une exploration intéractive des données.
+- `pandas` est une bibliothèque de manipulation de données indexées permettant une manipulation rapide de données complexes.
+
+
+Nous verrons comment l'interaction du notebook jupyter et des bibliothèques python scientifique permet de produire et partager une exploration intéractive des données. On insistera en particulier sur les fonctionnalités de pandas, utiles au quotidien pour l'analyste.
 
 
 ### 24 heures plus tard
 
-Pour explorer nos outils, le fil rouge de cette formation sera le développement d'une simulation de la propagation d'une épidémie à travers une population.
+Pour explorer nos outils, le fil rouge de cette formation sera le développement d'une simulation de la propagation d'une épidémie à travers une population. On comparera ensuite cette simulation à des données réelles issues de l'OMC sur l'épidémie annuelle de grippe.
 
 
 ## Pré-requis
@@ -58,25 +59,27 @@ Pour explorer nos outils, le fil rouge de cette formation sera le développement
 
 ### Administration
 
-- Savoir installer et administrer une distribution conda
-- Connaître les possibilités de déploiement et de partage d'un notebook
-- Mettre en ligne un notebook sur mybinder
-- Gérer le versionnage des notebooks à l'aide de `nbdime`
+- Savoir installer et administrer une distribution conda.
+- Mettre en ligne un notebook sur mybinder.
+- Gérer le versionnage des notebooks à l'aide de `nbdime`.
+- Connaître les possibilités de déploiement et de partage d'un notebook.
+
 
 ### Jupyter
 
-- Maîtriser la navigation, l'exécution et l'export d'un notebook jupyter
-- Maîtriser les bases de l'écriture dans le langage à balise Markdown
-- Connaitre les bases de l'utilisation des widgets `ipywidget`
+- Maîtriser la navigation, l'exécution et l'export d'un notebook jupyter.
+- Maîtriser les bases de l'écriture dans le langage à balise Markdown.
+- Connaitre les bases de l'utilisation des widgets `ipywidget`.
 
 ### Python scientifique
 
-- Savoir manipuler des données numpy
+- Savoir manipuler des données numpy.
 - Savoir créer et manipuler des données avec pandas
 - Connaître la création de graphiques avec matplotlib et pandas
 
 
 ## Méthodes pédagogiques (administratif)
+
 On visera une alternance de 50% de travaux pratiques et 50% de cours théoriques.
 Le support de cours sera fourni au format PDF accompagné d’un lien vers les supports numériques (TP & application).
 
@@ -94,23 +97,44 @@ Durant les 4 jours de formation, les TPs sont contrôlés et corrigés par le fo
 - Export de notebooks avec `nbconvert`
 - Gestion de version avec `nbdime`
 - `Hello World`, structure et navigation dans le notebook
-- Les "`cell magic`", quelques exemples
+- Quelques exemples de `cell magic`
 
 
 #### Partie 2 : Python Scientifique
 
 - Un bref rafraîchissment sur python
 - Guide de styles, conseils d'écriture
-
-
-
+- Les `array` Numpy : comment «vectoriser» ses calculs?
+- Indexation avancée
+- Scipy : calculs en tous genres
+- Matplotlib : représenter des données
+- Seaborn : Graphes pré-définis
+- Stratégies d'optimisation: `cython` et `numba`
 
 #### Partie 3 : Ipywidgets et interactivité
 
+- Présentation d'Ipywidgets
+- Exemples pré-définis
+- Combinaisons
+- Création de nouveaux widgets
+
+#### Partie 4 : Pandas
+
+- Structures de données :  `Series`, `DataFrame`, `Index`
+- Lecture et écriture - fichiers Excel &trade;
+- Affichage et inspection rapide des données
+- Travailler avec des séries temporelles
+- Filtres et indexage avancé
+- Diviser pour mieux régner (_Split, Apply, Combine_)
+- scikit-learn et pandas, introduction au machine learning
 
 
-#### Partie 4 : Déploiement
+#### Partie 5 : Déploiement
 
+- Spécification de dépendances : le fichier `environment.yml`
+- MyBinder
+- Création d'une image docker
+- JupyterHub
 
 
 ## Le formateur
