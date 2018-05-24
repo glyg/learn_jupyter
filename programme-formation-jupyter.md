@@ -1,5 +1,5 @@
 # Formation : Jupyter et python scientifique
-**Baseline :** Emparez-vous de Jupyter et créez des explorations de données intéractives!
+**Baseline :** Emparez-vous de Jupyter et créez des explorations de données interactives!
 
 **Durée :** 3 jours
 
@@ -17,13 +17,13 @@ Cette approche révolutionne le partage et l'exploration de données en exposant
 [Le prestigieux prix ACM](https://blog.jupyter.org/jupyter-receives-the-acm-software-system-award-d433b0dfe3a2).
 
 
-Les technologies de l'écosystème Jupyter sont issues de la communautée python scientifique, mais incluent aujourd'hui plus d'une dizaine de langages, comme R, javascript et même C++! Un ensemble d'outils que nous explorerons accompagnent le notebook:
+Les technologies de l'écosystème Jupyter sont issues de la communauté python scientifique, mais incluent aujourd'hui plus d'une dizaine de langages, comme R, javascript et même C++! Un ensemble d'outils que nous explorerons accompagnent le notebook:
 
-- Le gestionaire de paquet [`conda`](https://conda.io/docs/) facilite la distribution et la gestion des dépendances des projets de l'échosystème.
+- Le gestionnaire de paquet [`conda`](https://conda.io/docs/) facilite la distribution et la gestion des dépendances des projets de l'écosystème.
 
 - [`nteract`](https://nteract.io/) est un client de bureau pour le notebook
 
-- Les notebooks peuvent être accédés localement ou à distance, et [`JupyerHub`](http://jupyterhub.readthedocs.io/en/latest/) permet aisément de déployer un service multi-utlisateur.
+- Les notebooks peuvent être accédés localement ou à distance, et [`JupyerHub`](http://jupyterhub.readthedocs.io/en/latest/) permet aisément de déployer un service multi-utilisateur.
 
 - Le service [My binder](https://mybinder.org/) permet de mettre en ligne des notebooks exécutables dans installation de la part de l'utilisateur.
 
@@ -41,7 +41,7 @@ Depuis une dizaine d'années, le langage python s'est imposé dans l'informatiqu
 - `pandas` est une bibliothèque de manipulation de données indexées permettant une manipulation rapide de données complexes.
 
 
-Nous verrons comment l'interaction du notebook jupyter et des bibliothèques python scientifique permet de produire et partager une exploration intéractive des données. On insistera en particulier sur les fonctionnalités de pandas, utiles au quotidien pour l'analyste.
+Nous verrons comment l'interaction du notebook jupyter et des bibliothèques python scientifique permet de produire et partager une exploration interactive des données. On insistera en particulier sur les fonctionnalités de pandas, utiles au quotidien pour l'analyste.
 
 
 ### 24 heures plus tard
@@ -71,7 +71,7 @@ Pour explorer nos outils, le fil rouge de cette formation sera le développement
 
 - Maîtriser la navigation, l'exécution et l'export d'un notebook jupyter.
 - Maîtriser les bases de l'écriture dans le langage à balise Markdown.
-- Connaitre les bases de l'utilisation des widgets `ipywidget`.
+- Connaître les bases de l'utilisation des widgets `ipywidget`.
 
 ### Python scientifique
 
@@ -85,7 +85,7 @@ Pour explorer nos outils, le fil rouge de cette formation sera le développement
 On visera une alternance de 50% de travaux pratiques et 50% de cours théoriques.
 Le support de cours sera fourni au format PDF accompagné d’un lien vers les supports numériques (TP & application).
 
-## Evaluation des acquis pédagogiques (administratif)
+## Évaluation des acquis pédagogiques (administratif)
 
 Durant les 4 jours de formation, les TPs sont contrôlés et corrigés par le formateur.
 
@@ -104,19 +104,19 @@ Durant les 4 jours de formation, les TPs sont contrôlés et corrigés par le fo
 
 #### Partie 2 : Python Scientifique
 
-- Un bref rafraîchissment sur python
+- Un bref rafraîchissement sur python
 - Guide de styles, conseils d'écriture
 - Les `array` Numpy : comment «vectoriser» ses calculs?
 - Indexation avancée
 - Scipy : calculs en tous genres
 - Matplotlib : représenter des données
-- Seaborn : Graphes pré-définis
+- Seaborn : Graphes prédéfinis
 - Stratégies d'optimisation: `cython` et `numba`
 
 #### Partie 3 : Ipywidgets et interactivité
 
 - Présentation d'Ipywidgets
-- Exemples pré-définis
+- Exemples prédéfinis
 - Combinaisons
 - Création de nouveaux widgets
 
